@@ -42,16 +42,16 @@ export const Seo: FunctionComponent<ISeoProps> = ({
       <meta property="og:title" content={opengraphTitle} />
       <meta property="og:url" content={`${siteUrl}${opengraphUrl}`} />
       <meta property="og:description" content={opengraphDescription} />
-      <meta property="og:image" content={defaultImage.mediaItemUrl} />
-      <meta property="og:image:alt" content={defaultImage.altText} />
+      <meta property="og:image" content={defaultImage?.mediaItemUrl} />
+      <meta property="og:image:alt" content={defaultImage?.altText} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={opengraphTitle} />
       <meta name="twitter:url" content={`${siteUrl}${opengraphUrl}`} />
       <meta name="twitter:description" content={opengraphDescription} />
-      <meta name="twitter:image" content={defaultImage.mediaItemUrl} />
-      <meta name="twitter:image:alt" content={defaultImage.altText} />
+      <meta name="twitter:image" content={defaultImage?.mediaItemUrl} />
+      <meta name="twitter:image:alt" content={defaultImage/.altText} />
 
       {/* favicon */}
       <link
