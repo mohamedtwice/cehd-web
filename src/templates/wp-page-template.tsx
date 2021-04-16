@@ -19,7 +19,7 @@ const WpPageTemplate: FunctionComponent<IPageTemplate> = ({ data: { page } }) =>
 
   return (
     <Fragment>
-      <Seo seo={seo} />
+ //     <Seo seo={seo} />
       <div id="content">
       <h1>{title}</h1>
       </div>
