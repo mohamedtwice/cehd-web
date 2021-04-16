@@ -21,8 +21,8 @@ export const Header: FunctionComponent<IHeaderProps> = ({ isMenuOpen, onClick })
       {/*    <Logo />*/}
       {/*  </a>*/}
       {/*</div>*/}
-      <p style={{ fontSize: "1.75em" }} 
->
+      <p style={{ fontSize: "1.75em" }}> 
+
         <a href="/" rel="home">
           {`${generalSettingsTitle}`}
         </a>
