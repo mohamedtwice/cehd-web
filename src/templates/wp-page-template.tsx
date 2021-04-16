@@ -4,7 +4,7 @@ import '@wordpress/block-library/build-style/theme.css'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import React, { Fragment, FunctionComponent } from 'react'
-// import { Seo } from '../components/seo'
+import { Seo } from '../components/seo'
 
 interface IPageTemplate {
   data: any
@@ -19,7 +19,7 @@ const WpPageTemplate: FunctionComponent<IPageTemplate> = ({ data: { page } }) =>
 
   return (
     <Fragment>
- //     <Seo seo={seo} />
+      <Seo seo={seo} />
       <div id="content">
       <h1>{title}</h1>
       </div>
