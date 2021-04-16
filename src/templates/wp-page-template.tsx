@@ -4,7 +4,7 @@ import '@wordpress/block-library/build-style/theme.css'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import React, { Fragment, FunctionComponent } from 'react'
-import { Seo } from '../components/seo'
+// import { Seo } from '../components/seo'
 
 interface IPageTemplate {
   data: any
