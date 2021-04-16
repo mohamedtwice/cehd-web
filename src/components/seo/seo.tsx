@@ -51,7 +51,7 @@ export const Seo: FunctionComponent<ISeoProps> = ({
       <meta name="twitter:url" content={`${siteUrl}${opengraphUrl}`} />
       <meta name="twitter:description" content={opengraphDescription} />
       <meta name="twitter:image" content={defaultImage?.mediaItemUrl} />
-      <meta name="twitter:image:alt" content={defaultImage/.altText} />
+      <meta name="twitter:image:alt" content={defaultImage?.altText} />
 
       {/* favicon */}
       <link

@@ -16,14 +16,14 @@ export const Header: FunctionComponent<IHeaderProps> = ({ isMenuOpen, onClick })
 
   return (
     <header id="masthead">
-      <div className="logo">
-        <a href="/" rel="home">
-          <Logo />
-        </a>
-      </div>
+      {/*<div className="logo">*/}
+      {/*  <a href="/" rel="home">*/}
+      {/*    <Logo />*/}
+      {/*  </a>*/}
+      {/*</div>*/}
       <p>
         <a href="/" rel="home">
-          {`${generalSettingsTitle} | Gatsby`}
+          {`${generalSettingsTitle}`}
         </a>
       </p>
 

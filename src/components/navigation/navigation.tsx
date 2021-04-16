@@ -21,7 +21,8 @@ export const Navigation: FunctionComponent<INavigationProps> = ({ onClick }) => 
   return (
     <nav id="site-navigation" className="main-navigation">
       {/* <h1>{name}</h1> */}
-      <div className="menu-main-navigation-container">
+      <div className="menu-container">
+        <div className="menu-main-navigation-container" style={{ width: "100%" }}>
         <ul id="primary-menu" className="menu">
           {nodes.map((item: IMenuItem) => {
             const { id, label, path } = item
@@ -45,6 +46,7 @@ export const Navigation: FunctionComponent<INavigationProps> = ({ onClick }) => 
             )
           })}
         </ul>
+        </div>
       </div>
     </nav>
   )

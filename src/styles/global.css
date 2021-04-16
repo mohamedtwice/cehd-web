@@ -301,6 +301,7 @@ header#masthead a {
 }
 header#masthead > a {
   font-weight: bold;
+  font-size: 1.52em;
 }
 header#masthead > a > svg {
   width: 1.8em;
@@ -329,7 +330,8 @@ article a,
 nav a {
   background: #fcf8f3 none repeat scroll 0% 0%;
   border-bottom: 0.1em dotted;
-  line-height: 1.6em;
+  line-height: 2em;
+  font-size: 1.5em;
 }
 article > header > h1 {
   font-size: 2.4em;
@@ -349,4 +351,16 @@ footer#colophon {
     align-items: center;
     max-width: 69em;
     margin: 2em auto;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  max-width: 69em;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+#primary-menu {
+  list-style: none;
 }
